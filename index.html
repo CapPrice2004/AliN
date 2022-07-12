@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Niyazimbetov</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a class="logo" href="#">
+                    <img src="images/header/logo.png" alt="index.html">
+                </a>
+                <button class="header__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link active" href="index.html">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="https://www.facebook.com/profile.php?id=100008252237802">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="https://www.instagram.com/ali_niyazimbetov/">
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">
+                                TikTok
+                            </a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="https://www.youtube.com/channel/UCNxM4iSVX_gtLgFcbJGRs-w">
+                                YouTube
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="header__content">
+                <div class="header__wrapper-left">
+                    <h1 class="header__title">
+                        Ali
+                        Niyazimbetov
+                    </h1>
+                    <div class="header__text">
+                        Автор самых популярных песен в Средней Азий которых признал и полюбил народ, таких как: “Azizm”,
+                        “Sevgi
+                        Fazosi”, “Firoq” и других немало известных произведений.
+                    </div>
+                    <a class="subscribe" href="#notification">Подписаться</a>
+                </div>
+                <div class="header__wrapper-right">
+                    <img class="header__img" src="images/header/header__content.jpg" alt="">
+                    <div class="header__content-describe">
+                        <h2 class="header__content-title">
+                            Али Ниязимбетов
+                        </h2>
+                        <p class="header__content-text">
+                            Родился 1977 года в городе Нукус. Является композитором, музыкантом, певцом и актёром.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="youtube">
+        <div class="container">
+            <h2 class="title">
+                Несколько произведений Али Ниязимбетова
+            </h2>
+            <div class="youtube__wrapper">
+                <div class="youtube__item">
+                    <iframe width="1082" height="721" src="https://www.youtube.com/embed/qayPPfGE7hk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="youtube__item">
+                    <iframe width="1082" height="721" src="https://www.youtube.com/embed/DeXZXBMINUQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="youtube__item">
+                    <iframe width="961" height="721" src="https://www.youtube.com/embed/qmLbL4cWml4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="stream">
+        <div class="container">
+            <div class="stream__wrapper">
+                <h2 class="title stream__title">
+                    Слушайте Али Ниязимбетова в разных платформах
+                </h2>
+                <div class="stream__item">
+                    <img class="stream__img" src="images/stream/cover-img.jpg" alt="album image">
+                    <div class="tag">
+                        Album
+                    </div>
+                    <p class="stream__text"> Cборник всех песен </p>
+                    <a class="stream__btn" href="platforms.html">Слушать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="notification" class="notification">
+        <form class="form" action="https://formsubmit.co/igencap@gmail.com" method="POST">
+            <h2 class="notification__title"> Подписаться </h2>
+            <div class="form__item">
+                <label class="form__label" for="email">
+                    Электронный Адрес
+                </label>
+                <input id="email" class="form__input" type="email" name="email" placeholder="johngrow@gmail.com"
+                    required>
+            </div>
+            <div class="form__item">
+                <label class="form__label" for="name">
+                    Ваше Имя
+                </label>
+                <input id="name" class="form__input" type="text" name="name" placeholder="John Grow" required>
+            </div>
+            <p class="notification__text">
+                Подписавшись Вы будете получать уведомления о новостях, новых релизах, и видео Али Ниязимбетова
+            </p>
+            <div class="form__btn-wrapper">
+                <button class="form__btn" type="submit">Отправить</button>
+            </div>
+        </form>
+
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <span class="copyright">Copyright 2022, All Rights Reserved</span>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
